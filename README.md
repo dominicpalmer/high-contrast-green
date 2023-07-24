@@ -2,4 +2,4 @@
 
 My personal light theme for JetBrains editors.
 
-<img src="high-contrast-light.png" alt="High Contrast Light preview" width="950">
+<img src="preview.png" alt="High Contrast Light preview" width="950">
