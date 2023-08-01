@@ -5,9 +5,22 @@
   "editorScheme": "/theme/VisualAssistLight.xml",
 
   "colors": {
-    "editorTabBarBackground": "#ccd9e2",
-    "toolWindowBackgroundActive": "#afc693",
-    "toolWindowBackgroundInactive": "#bbd5aa"
+    "tabWellMainBackground": "#ccd9e2",
+
+    "toolWindowMainBackgroundActive": "#afcb7b",
+    "toolWindowMainBackgroundInactive": "#a9c478",
+
+    "toolWindowButtonBackgroundHoverActive": "#a3b676",
+    "toolWindowButtonBackgroundHoverInactive": "#97a867",
+    "toolWindowButtonUnderlineActive": "#000000",
+    "toolWindowButtonUnderlineInactive": "#000000",
+
+    "toolWindowIconBackgroundHover": "#d1d3d5",
+    "toolWindowIconBackground": "#d1d3d5",
+    "toolWindowIconForeground": "#000000",
+    "toolWindowIconSeparatorForeground": "#828282",
+
+    "treeSelectionBackground": "#c4d5ff"
   },
 
   "ui": {
@@ -26,7 +39,7 @@
       "disabledBorderColor": "#e5e7e9",
       "focusColor": "#28728f",
       "focusedBorderColor": "#28728f",
-      "separatorColor": "#bdbfc0"
+      "separatorColor": "toolWindowIconSeparatorForeground"
     },
 
     "ActionButton": {
@@ -57,7 +70,7 @@
     },
 
     "ComboBox": {
-      "nonEditableBackground": "#bdbfc0",
+      "nonEditableBackground": "#ffffff",
       "ArrowButton": {
         "iconColor": "#000000",
         "disabledIconColor": "#bdbfc0",
@@ -74,6 +87,7 @@
     },
 
     "Component": {
+      "infoForeground": "#727272",
       "errorFocusColor": "#fff7f7",
       "inactiveErrorFocusColor": "#fffbf7",
       "warningFocusColor": "#fff7f7",
@@ -105,7 +119,7 @@
       "underlineHeight": 0,
       "underlinedTabForeground": "#000000",
       "underlinedTabBackground": "#ffcc00",
-      "background": "editorTabBarBackground"
+      "background": "tabWellMainBackground"
     },
 
     "FileColor": {
@@ -131,6 +145,12 @@
       "hoverForeground": "#28766e",
       "pressedForeground": "#28766e",
       "visitedForeground": "#28766e"
+    },
+
+    "MainWindow": {
+      "Tab": {
+        "selectedBackground": "#0afdb2"
+      }
     },
 
     "NavBar.borderColor": "#000000",
@@ -292,24 +312,32 @@
 
     "ToolTip": {
       "background": "#f5f7f9",
-      "Actions.background": "#bdbfc0"
+      "Actions": {
+        "background": "#efefef"
+      }
     },
 
     "ToolWindow": {
       "Header": {
-        "background": "toolWindowBackgroundActive",
-        "inactiveBackground": "toolWindowBackgroundInactive"
+        "background": "toolWindowMainBackgroundActive",
+        "inactiveBackground": "toolWindowMainBackgroundInactive"
       },
       "HeaderTab": {
-        "selectedInactiveBackground": "#bdbfc0FF",
-        "hoverBackground": "#fbfcfaFF",
-        "hoverInactiveBackground": "#bdbfc0FF"
+        "hoverBackground": "toolWindowButtonBackgroundHoverActive",
+        "hoverInactiveBackground": "toolWindowButtonBackgroundHoverInactive",
+        "underlineColor": "toolWindowButtonUnderlineActive",
+        "inactiveUnderlineColor": "toolWindowButtonUnderlineInactive"
       },
       "Button": {
-        "hoverBackground": "#d1d3d5",
-        "selectedBackground": "#d1d3d5",
-        "selectedForeground": "#000000"
+        "selectedBackground": "toolWindowIconBackground",
+        "selectedForeground": "toolWindowIconForeground",
+        "hoverBackground": "toolWindowIconBackgroundHover"
       }
+    },
+
+    "Tree": {
+      "selectionBackground": "treeSelectionBackground",
+      "selectionForeground": "#000000"
     },
 
     "ValidationTooltip": {
