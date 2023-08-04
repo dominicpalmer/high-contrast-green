@@ -5,6 +5,8 @@
   "editorScheme": "/theme/VisualAssistLight.xml",
 
   "colors": {
+    "mainBackground": "#f5f5f5",
+
     "tabWellMainBackground": "#ccd9e2",
 
     "toolWindowMainBackgroundActive": "#afcb7b",
@@ -20,12 +22,16 @@
     "toolWindowIconForeground": "#000000",
     "toolWindowIconSeparatorForeground": "#828282",
 
+    "toolWindowInfoTextForeground": "#5f55d7",
+
+    "dragAndDropBackground": "#e8e8e8",
+
     "treeSelectionBackground": "#c4d5ff"
   },
 
   "ui": {
     "*": {
-      "background": "#ffffff",
+      "background": "mainBackground",
       "foreground": "#000000",
       "inactiveBackground": "#e5e7e9",
       "disabledBackground": "#e5e7e9",
@@ -87,7 +93,7 @@
     },
 
     "Component": {
-      "infoForeground": "#727272",
+      "infoForeground": "toolWindowInfoTextForeground",
       "errorFocusColor": "#fff7f7",
       "inactiveErrorFocusColor": "#fffbf7",
       "warningFocusColor": "#fff7f7",
@@ -104,8 +110,8 @@
     "DebuggerPopup.borderColor": "#bdbfc0",
 
     "DragAndDrop": {
-      "areaForeground": "#000000  ",
-      "areaBackground": "#ffffff"
+      "areaForeground": "#000000",
+      "areaBackground": "dragAndDropBackground"
     },
 
     "Editor": {
@@ -168,7 +174,7 @@
         "warningBackground": "#fffbf7",
         "warningBorderColor": "#fa0c0c",
         "errorForeground": "#000000",
-        "errorBackground": "#fff7f7",
+        "errorBackground": "#ffcccc",
         "errorBorderColor": "#fa0c0c"
       }
     },
