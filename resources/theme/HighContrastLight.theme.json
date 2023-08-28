@@ -26,7 +26,9 @@
 
     "dragAndDropBackground": "#e8e8e8",
 
-    "treeSelectionBackground": "#c4d5ff"
+    "treeSelectionBackground": "#c4d5ff",
+
+    "scrollBarForeground": "#404040"
   },
 
   "ui": {
@@ -239,7 +241,7 @@
 
     "ScrollBar": {
       "Transparent": {
-        "thumbColor": "#000000",
+        "thumbColor": "scrollBarForeground",
         "thumbBorderColor": "#f9fbfdC8",
         "hoverThumbColor": "#404040",
         "hoverThumbBorderColor": "#f9fbfdC8",
