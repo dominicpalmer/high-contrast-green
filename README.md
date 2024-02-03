@@ -1,5 +1,5 @@
-# High Contrast Light
+# High Contrast Green
 
-My personal light theme for JetBrains editors.
+My personal green light theme for JetBrains editors.
 
-<img src="preview.png" alt="High Contrast Light preview" width="950">
+<img src="preview.png" alt="High Contrast Green preview" width="950">

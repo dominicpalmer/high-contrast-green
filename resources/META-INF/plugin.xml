@@ -1,12 +1,12 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>HighContrastLight</id>
+    <id>HighContrastGreen</id>
     <version>1.0.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>HighContrastLight</name>
+    <name>HighContrastGreen</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
@@ -33,6 +33,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="HighContrastLight" path="/theme/HighContrastLight.theme.json"/>
+        <themeProvider id="HighContrastGreen" path="/theme/HighContrastGreen.theme.json"/>
     </extensions>
 </idea-plugin>

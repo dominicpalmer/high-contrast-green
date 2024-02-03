@@ -1,11 +1,12 @@
 {
-  "name": "High Contrast Light",
+  "name": "High Contrast Green",
   "dark": false,
   "author": "Dominic Palmer",
   "editorScheme": "/theme/VisualAssistLight.xml",
-
+  "additionalEditorSchemes": [],
   "colors": {
     "mainBackground": "#f5f5f5",
+
 
     "tabWellMainBackground": "#ccd9e2",
 
