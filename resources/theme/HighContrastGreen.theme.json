@@ -1,13 +1,16 @@
 {
+  "id": "HighContrastGreen",
   "name": "High Contrast Green",
+  "version": "1.0.0",
+  "description": "Light theme with green accents.",
   "dark": false,
   "author": "Dominic Palmer",
   "editorScheme": "/theme/VisualAssistLight.xml",
-  "additionalEditorSchemes": [],
+
   "colors": {
     "mainBackground": "#f5f5f5",
 
-    "tabWellMainBackground": "#ccd9e2",
+    "tabWellMainBackground": "#bdd0e0",
 
     "toolWindowMainBackgroundActive": "#afcb7b",
     "toolWindowMainBackgroundInactive": "#a9c478",
@@ -26,7 +29,7 @@
 
     "dragAndDropBackground": "#e8e8e8",
 
-    "selectionBackground": "#008d9a",
+    "selectionBackground": "#347cbd",
     "selectionForeground": "#ffffff",
 
     "scrollBarForeground": "#404040"
