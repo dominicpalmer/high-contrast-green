@@ -1,8 +1,6 @@
 {
-  "id": "HighContrastGreen",
   "name": "High Contrast Green",
   "version": "1.0.0",
-  "description": "Light theme with green accents.",
   "dark": false,
   "author": "Dominic Palmer",
   "editorScheme": "/theme/VisualAssistLight.xml",
